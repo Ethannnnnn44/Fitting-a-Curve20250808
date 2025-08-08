@@ -2,3 +2,17 @@
 # and attempts to fit a curve. 
 
 
+# PLAN  
+# 1. import the .fcs file 
+# 2. specify which parameter to base the plot on 
+# 3. figure out how to extract the .fcs parameter from the file as an array 
+# 4. plot the array
+# 5. use a library to fit a curve to the data 
+
+# 6. split the array into bins of fix size
+# 7. create a scatter plot 
+
+# 8. Create graphics overlaying the bined data and the curve. 
+
+# maybe I can create a general function or object that extracts data from the .fcs file. 
+
