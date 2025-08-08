@@ -15,7 +15,6 @@
 # 8. Create graphics overlaying the bined data and the curve. 
 
 # maybe I can create a general function or object that extracts data from the .fcs file. 
-
 # what labrary can you use to pull a .fcs file. 
 
 import FlowCal
@@ -24,8 +23,12 @@ import numpy
 
 file = FlowCal.io.FCSData('TestFile.fcs')
 
+shape = file.shape
 
-print(f"file name: {file}")
+print(f"file shape (events, channelw): {shape}")
+
+
+
 
 
 

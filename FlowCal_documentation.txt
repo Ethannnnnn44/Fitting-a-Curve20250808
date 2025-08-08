@@ -22,4 +22,9 @@ READING FLOW CYTOMETRY DATA
 # loads the information into an FCSData object, and assigns it to a variable s.
 s = FlowCal.io.FCSData('FCFiles/sample006.fcs') 
 
+An FCSData object is a 2D numpy array with a few additional features. 
+The first dimension indexes the event number, and the second dimension indexes the flow cytometry channel
+
+.shape gives (events, channels)
+
 
