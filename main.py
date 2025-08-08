@@ -16,3 +16,20 @@
 
 # maybe I can create a general function or object that extracts data from the .fcs file. 
 
+# what labrary can you use to pull a .fcs file. 
+
+import FlowCal
+import numpy
+
+
+file = FlowCal.io.FCSData('TestFile.fcs')
+
+
+print(f"file name: {file}")
+
+
+
+
+
+
+

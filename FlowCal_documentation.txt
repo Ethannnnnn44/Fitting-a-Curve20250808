@@ -16,3 +16,10 @@ Castillo-Hair S.M., Sexton J.T., et al. FlowCal:
 A User-Friendly, Open Source Software Tool for Automatically Converting Flow Cytometry Data from 
 Arbitrary to Calibrated Units.. ACS Synth. Biol. 2016.
 
+READING FLOW CYTOMETRY DATA
+
+# opens the file sample006.fcs from the FCFiles folder, 
+# loads the information into an FCSData object, and assigns it to a variable s.
+s = FlowCal.io.FCSData('FCFiles/sample006.fcs') 
+
+
